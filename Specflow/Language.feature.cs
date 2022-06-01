@@ -76,7 +76,7 @@ namespace Mars.Specflow
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Adding a language to the profile page")]
-        [NUnit.Framework.TestCaseAttribute("Telugu", null)]
+        [NUnit.Framework.TestCaseAttribute("English", null)]
         public void AddingALanguageToTheProfilePage(string language, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
@@ -108,7 +108,7 @@ this.ScenarioInitialize(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Editing a language in the profile page")]
-        [NUnit.Framework.TestCaseAttribute("Kannada", null)]
+        [NUnit.Framework.TestCaseAttribute("Tamil", null)]
         public void EditingALanguageInTheProfilePage(string language, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
