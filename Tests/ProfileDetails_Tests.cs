@@ -14,14 +14,14 @@ namespace Mars.Pages
         public void CreateProfileDetails_Test()
         {
             //Add language in Profile Details
-            profilePageObj.CreateProfileDetails(driver,"dummy3");
+            profilePageObj.CreateProfileDetails(driver,"Tamil");
         }
 
         [Test, Order(2)]
         public void EditProfileDetails_Test()
         {
             //edit
-            profilePageObj.EditProfileDetails(driver,"dummy");
+            profilePageObj.EditProfileDetails(driver,"English");
         }
 
         [Test, Order(3)]
